@@ -1,0 +1,14 @@
+[package]
+name = "web2image"
+version = "0.1.0"
+edition = "2021"
+authors = ["wangzhifei <wangzhifeixiang@qq.com>"]
+description = "A command-line tool that can take screenshots of web pages and add a QR code on top of the captured image. The URL link of the captured webpage can be obtained by scanning the QR code image."
+
+[dependencies]
+anyhow = "1.0.86"
+clap = { version = "4.5.9", features = ["derive"] }
+headless_chrome = "1.0.10"
+image = "0.25.1"
+qrcode = "0.14.1"
+url = "2.5.2"
